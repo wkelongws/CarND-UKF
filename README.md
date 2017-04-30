@@ -54,7 +54,7 @@ Different initializtoin settings were tried and the following setting was finall
 * The first measurements are used to initialize the x and y positions in the state vector and the other three elements: speed, yaw angle and yaw rate are initialized to 0. 
 * The covariance matrices are initialized to
 
-`0.1, 0, 0, 0, 0,
+0.1, 0, 0, 0, 0,
 
 0, 0.1, 0, 0, 0,
 
@@ -62,7 +62,7 @@ Different initializtoin settings were tried and the following setting was finall
 
 0, 0, 0, 1, 0,
 
-0, 0, 0, 0, 1;`
+0, 0, 0, 0, 1;
 
 * The standard deviation of longitudinal acceleration in the process noise is set to 3m/s^2. This means I expect the longitudinal acceleration to be between −6m/s^2​​ and +6m/s^2 about 95% of the time.
 * The standard deviation of yaw acceleration in the process noise is set to 1rad/s^2. This means I expect the yaw acceleration to be between −2rad/s^2​​ and +2rad/s^2 about 95% of the time.
